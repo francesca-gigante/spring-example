@@ -12,12 +12,12 @@ public class SpringExampleApplication {
 	public String welcome() {
 		return "Welcome to java FG";
 	}
-	
+
 	@GetMapping("/{input}")
 	public String congrats(@PathVariable String input) {
-		return "hi " + input + " your application deployed successfully";
+		return "hi " + input + " your application deployed successfully right now";
 	}
-	
+
 	public static void main(String[] args) {
 		SpringApplication.run(SpringExampleApplication.class, args);
 	}
