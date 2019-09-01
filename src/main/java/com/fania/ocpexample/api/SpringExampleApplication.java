@@ -10,7 +10,7 @@ public class SpringExampleApplication {
 
 	@GetMapping("/")
 	public String welcome() {
-		return "Welcome to java FG";
+		return "Welcome to java FG new";
 	}
 
 	@GetMapping("/{input}")
